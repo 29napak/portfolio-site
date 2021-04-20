@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>django-film/top-page</title>
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="./css/style.css">
+
+ 
+  <!-- for on scroll animations -->
+  <link rel="stylesheet" href="./css/animate.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+  <!---rotate text---->
+  <script src="./js/circletype.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.js" integrity="sha512-HkPTAAm+s4i8XlHc0dmKTmR7gEo5W3mwtgRNqOMkYdWAK/OaS89ZwQ2jIOyVx7ZrtCEDxb245+rMjN/mmOj/DQ==" crossorigin="anonymous"></script>
+  <!----full page-->
+<link rel="stylesheet" href="./css/fullpage.css">
+  <script src="./js/fullpage.min.js"></script>
+
+  <!--------slider--------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" />
+  
+  <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
+  <script src="./js/main.js" defer></script>        
+  <script src="./js/top-page.js" defer></script>
+</head>
+
+<body>
+  <!--------------- navbar starts here --------------->
+  <!--------------- navbar end here --------------->
+  <div class="load">
+    <div class="loader">
+      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 539.94 193.15"><defs></defs>
+        <path class="cls-d" d="M161.33,157.1h28.18q27.28,0,36.9,2.5T241,167.83a26,26,0,0,1,6.26,12.74q1.24,7,1.25,27.58v50.68q0,19.49-1.83,26.06a19.69,19.69,0,0,1-6.39,10.28,26.72,26.72,0,0,1-11.28,5.19q-6.7,1.47-20.22,1.48H161.32V157.1Zm37.74,32.19v79.45q8,0,9.89-3.26t1.85-17.75V207.26q0-9.84-.62-12.61a6,6,0,0,0-2.83-4.07Q205.15,189.29,199.07,189.29Z" transform="translate(-158.82 -151.39)"/>
+        <path class="cls-j" d="M297,157.1v130q0,21.72-.45,27.93c-.3,4.15-1.67,14.75-4.11,18.08a18.7,18.7,0,0,1-9.87,6.93q-6.21,1.92-18.71,1.92H245V309.7c2.26.18,3.89.27,4.9.27a9.45,9.45,0,0,0,6.32-2,7.38,7.38,0,0,0,2.67-4.83c.23-1.9.36-5.6.36-11.08v-135Z" transform="translate(-158.82 -151.39)"/>
+        <path class="cls-g" d="M595.61,210.33v-6.27q0-17.82-3.31-27.19T578.09,160.7q-10.9-6.81-27.43-6.81-16.8,0-27.39,7.83T510.44,179q-2.24,9.39-2.23,30.15v43q0,14.94,1.07,22.41a36.21,36.21,0,0,0,5.35,14.27,34,34,0,0,0,12.52,11.41,35.72,35.72,0,0,0,17.7,4.61,27.12,27.12,0,0,0,13.77-3.35c.48-.27.92-.62,1.38-.93v41.37h35.61V224h-44V250.5h7.3v1.2q0,10.08-1.44,13.56a5.38,5.38,0,0,1-5.45,3.48,4.74,4.74,0,0,1-4.88-3.09q-1.23-3.09-1.22-12.83V205.73q0-11.08,1.23-13.77t4.65-2.68c2.63,0,4.3,1.05,5,3.13s1,7.28,1,15.57v2.34h37.73Z" transform="translate(-158.82 -151.39)"/>
+        <path class="cls-o" d="M696.26,241.77q0,21.84-1,30.92a34.58,34.58,0,0,1-21.05,28.14,53.2,53.2,0,0,1-21.45,4,54.55,54.55,0,0,1-20.87-3.8,34.82,34.82,0,0,1-21.58-28q-1.06-8.94-1.07-31.32V217q0-21.82,1-30.91a34.63,34.63,0,0,1,21-28.14,53.23,53.23,0,0,1,21.45-4,54.59,54.59,0,0,1,20.87,3.8,34.82,34.82,0,0,1,21.58,28q1.06,9,1.07,31.32ZM658.52,205q0-10.1-1.1-12.92a4.36,4.36,0,0,0-4.51-2.82,5,5,0,0,0-4.43,2.28Q647,193.84,647,205v45.21q0,12.61,1,15.56t4.69,3a4.54,4.54,0,0,0,4.82-3.4q1-3.39,1-16.18Z" transform="translate(-158.82 -151.39)"/>
+        <polygon class="cls-n" points="305.95 5.71 305.95 70.88 284.77 5.71 243.21 5.71 239.76 43.19 255.18 37.97 250.4 87.01 263.22 82.04 253.07 150.44 284.95 150.44 284.95 84.65 304.53 150.44 337.46 150.44 337.46 5.71 305.95 5.71"/>
+        <path class="cls-a" d="M403,249.36l-12.56,4.78,2.11-49.63-17.18,5.67L376,157.1H322.27L303,301.82h38.94l2.27-26h13.58l2,26h43.05Zm-59.26.84q1.57-19.29,7.26-60.92,2.86,36.24,5.73,60.92Z" transform="translate(-158.82 -151.39)"/>
+        <path class="cls-f" d="M315,312h31.95v7.35H324.53v5h20.35v6.95H324.53V342H315V312Z" transform="translate(-158.82 -151.39)"/>
+        <path class="cls-i" d="M376.08,312h9.54V342h-9.54Z" transform="translate(-158.82 -151.39)"/>
+        <path class="cls-l" d="M421.59,312h9.51v22h23.25V342H421.59Z" transform="translate(-158.82 -151.39)"/>
+        <path class="cls-m" d="M480,312h14.65l9.49,18.3L514.35,312h13.92V342h-9.2V319.1L507.67,342h-7.06L489.22,319.1V342H480V312Z" transform="translate(-158.82 -151.39)"/>
+        <polygon class="cls-red" points="244.07 150.44 244.17 97.97 231.61 102.75 233.72 53.12 216.54 58.79 217.19 5.71 243.21 5.71 239.76 43.19 255.18 37.97 250.39 87.01 263.21 82.04 253.07 150.44 244.07 150.44"/></svg>
+
+    </div>
+  </div>
+  
+  
+  <div class="wrapper">
+    <div class="social-twiiter">
+      <p>
+        <a href=""><img src="img/twitter-logo.png" alt="" width="30px">@djangoflim</a>
+      </p>
+    </div>
+    <div class="page-name">
+      <p>01 - About Us<span class="line"></span></p>
+     
+    </div>
+    <nav>
+      <span class="brand">
+        
+        <a href="index.html"><img src="./img/jangologowhite.svg" alt=""></a>
+      </span>
+      
+      <div class="toggle">
+        <span class="zen top"></span>
+        <span class="zen middle"></span>
+        <span class="zen button"></span>
+      </div>
+    </nav>
+    <div class="overlay">
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">home<span>.</span></a></li>
+          <li><a href="./about/index.html">about us<span>.</span></a></li>
+          <li><a href="./producer/index.html">what we do<span>.</span></a></li>
+          <li><a href="./service/index.html">our service<span>.</span></a></li>
+          <li><a href="./project/index.html">our project<span>.</span></a></li>
+          <li><a href="./contact/index.html">contact<span>.</span></a></li>
+        </ul>
+      </div>
+    </div>
+
+
+
+    <div class="circular-text">
+      <span id="rotated"> MOVIE LOVER・CREATER・WE ARE PRODUCER・ </span>
+    
+    </div>
+    <div class="arrow">
+     
+        <div class="scroll-top"></div>
+     
+    </div>
+    <!--------------- hero section starts here --------------->
+    <div id="fullpage">
+      <div class="section s1 active">
+    
+        <div class="parent">
+
+                        <div class="hero-bg">
+                          <img src="./img/toppage-haeder.jpg" alt="">
+                        </div>
+                            
+                        <div class="text-header">
+                              <h1>djangoflim</h1>  
+                        </div>
+                        <div class="red-line"></div>
+                        <div class="typing">
+                        <h2> we are <div class="no-pc"><br></div><span class="type"></span></h2>
+                        </div>
+                        <div class="text">
+                        <p>1本の映画が世界を変えるかもしれない。<br>
+                          映画を創るならジャンゴフィルムへ</p>
+                        </div>   
+                        <div class="black-bg"></div>
+                        <a class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a>
+                        
+      </div>
+    
+    </div>
+
+    <div class="section s2">
+      <div class="parent">
+        <div class="s2-img"> 
+         
+          <img class="animated wow fadeInUp" data-wow-offset="150" src="./img/tops1-1.jpg" alt="">
+       
+          <img class="animated wow fadeInUp" data-wow-offset="150" src="./img/toppage-s1-2.jpg" alt="">
+        
+       
+          <img class="animated wow fadeInUp" data-wow-offset="150" src="./img/toppage-s2-3.jpg" alt="">
+        
+        </div>
+        <div class="s2-haed animated wow fadeInUp" data-wow-offset="150"> 
+          <h2>What <br>We Do</h2>
+        </div>
+        <div class="s2-text animated wow fadeInUp" data-wow-offset="150"> 
+          <p>1本の映画が<span>世界</span>を変えるかもしれない。<br>
+            1本の映画が<span>人々を動かし</span>、<br>
+            <span>社会</span>を動かすかもしれない<br>
+            映画で<span>世界を感動させる</span>、<br>
+            その一歩をサポートします。
+            </p>
+
+                    
+        </div>
+        <div class="s2-botton">
+        
+          <a class="main-botton  animated wow fadeInUp"  data-wow-duration="1.5s" data-wow-delay="1.4s" href="./producer/index.html">View More</a>
+        </div>
+        <div class="s2-line animated wow fadeInUp" data-wow-offset="150">
+          <h3>we are</h3>
+          <h1>producer</h1>
+          <div class="red-line"></div> </div>
+        </div>
+    </div>
+
+
+
+
+  <div class="section s3">
+    <div class="parent">
+      <h2 class="animated wow fadeInUp" data-wow-offset="50" data-wow-duration="2s" data-wow-delay="0s">ABOUT<br>US</h2>
+      <h3 class="animated wow fadeInUp" data-wow-offset="50" data-wow-duration="1s" data-wow-delay="0.8s">私たちについて</h3>
+      <p class="animated wow fadeInUp" data-wow-offset="50" data-wow-duration="1s" data-wow-delay="1s"> 私たちは良い映像や作品を生むだけでなく<br>業界の流れや日々変化する社会に対応しながら
+        時代を超えてもカタチとして残り人々の記憶に残る映像を通してその価値を創り出します。
+      </p>
+      <a class="main-botton animated wow fadeInUp" data-wow-offset="50" data-wow-duration="1s" data-wow-delay="1.2s" href="./about/index.html">View More</a>
+      <div class="s3-img animated wow fadeInUp" data-wow-duration="2s"data-wow-offset="50" data-wow-duration="1s" data-wow-delay="0.6s">
+      <img  src="./img/tops3-2.jpg" alt="">
+      <img  src="./img/tops3-1.jpg" alt="">
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="section s4">
+    <div class="parent">
+      <h2 class="animated wow fadeInUp" data-wow-offset="50" data-wow-delay="0" >OUR <br>
+        SERVICE<br>
+        <span class="animated wow fadeInUp" data-wow-offset="50" data-wow-delay="0.2s" >サービス</span>
+        </h2>
+        <div class="red"></div>
+        <div class="service1 ">
+          <img src="./img/toppage-movie.jpg" alt="">
+          <div class="tringle"></div>
+          <p>映像作成<br>
+            MOVIE  PRODUCTION</p>
+        </div>
+
+        <div class="service2 ">
+          
+          <div class="tringle2"></div>
+          <p>音楽作成<br>
+            MUSIC  PRODUCTION</p>
+        </div>
+
+        <div class="service3 ">
+          <img src="./img/toppage-lo.jpg" alt="">
+          <div class="tringle"></div>
+          <p>ロケーションサービス<br>
+            LOCATION SERVICE</p>
+        </div>
+
+        <div class="service4 ">
+          <img src="./img/toppage-drone.jpg" alt="">
+          <div class="tringle"></div>
+          <p>  ドローン撮影<br>
+            DRONE</p>
+        </div>
+
+        <a class="main-botton animated wow fadeInUp" data-wow-offset="50" data-wow-delay="0.4s" href="./service/index.html">View More</a>
+     
+      
+    </div>
+    
+  </div>
+
+  <div class="section s5">
+
+    <h2 class="animated wow fadeInUp" data-wow-offset="50" data-wow-delay="0">OUR <br>
+      PROJECT<br>
+<span class="animated wow fadeInUp" data-wow-offset="50" data-wow-delay="0.4s">実績</span></h2>
+    <div class="your-class">
+      <div><img src="img/work/guntz2.jpg" alt=""></div>
+      <div><img src="img/work/deathnote.jpg" alt=""></div>
+      <div><img src="img/work/yurigokoro.jpg" alt=""></div>
+      <div><img src="img/work/sanpousuru.jpg" alt=""></div>
+      <div><img src="img/work/sekigahara.jpg" alt=""></div>
+      <div><img src="img/work/siranifutari.jpg" alt=""></div>
+      <div><img src="img/work/kiminitodoke2.jpg" alt=""></div>
+    </div>
+    <a class="main-botton animated wow fadeInUp" data-wow-offset="50" data-wow-delay="0.2s" href="./project/index.html">SEE ALL PROJEC T</a>
+    <div class="red"></div>
+  </div>
+
+
+<div class="section s6">
+<div class="parent">
+  <div class="img1"></div>
+  <div class="img2"></div>
+  <div class="img3">
+    <div class="s6-wrap"></div>    
+    <div class="s6-text">
+  <p>映画では様々な世界に入り込め映画の中で感じた想いを忘れずにいれば現実世界にも活かせる事ができます。
+
+  その魅力と影響力が映像にはあるのです。</p>
+    
+  <p>映像で世界を動かす<br>
+    その一歩をサポートします。</p>
+
+</div>
+<div class="red-line"></div> 
+</div>
+
+</div>
+</div>
+
+
+
+
+  
+<div class="mb-white2"></div>
+
+  
+
+   
+<div class="section footer">
+  <div class="parent">
+    <div class="bg"> </div>
+    <div class="wrap"> </div>
+    <div class="red-side"> </div>
+    <div class="text">
+      
+      <h2>CONTACT US<br>
+         <span>お問い合わせ</span>
+        </h2>
+     
+        <p>映像作成に関するご相談や質問など、<br>
+          まずはお気軽にご連絡ください。</p>
+          <a class="main-botton" href="./contact/index.html">LET’S CONTACT</a>
+    </div>
+    <div class="text-h2"> 
+      <h2>CONTACT <br>US<br>
+         <span>お問い合わせ</span>
+        </h2>
+      </div>
+    <div class="home">
+      <p>01-HOME</p> </div>
+    <div class="twitter">
+      <a href="#"><img src="img/twitter-logo.png" alt="">@djangoflim</a> </div>
+    <div class="site-logo"> 
+      <img src="img/jangologowhite.svg" alt="">
+    </div>
+    <div class="adress"> 
+      <h6>
+        株式会社ジャンゴフィルム</h6>
+        <p>〒182-0023<br>
+          東京都調布市染地2-8-12<br>
+          （日活調布撮影所内）<br>
+          tel.080-0000000</p>
+    </div>
+    <div class="nikka">
+      <a href="#"><img src="img/nikka.png" alt="">NIKKATSU
+        CORPORATION
+        </a> <br>
+        <a href="#"><img src="img/nikka.png" alt="">NIKKATSU 
+          CORPORATION
+          </a> </div>
+    <div class="copy"> 
+      <p><small>Copyright ©2021 DJANGO-FILM Corporation. All Rights Reserved.
+      </small></p>
+    </div>
+    </div>
+</div>
+
+<div id="s-page" class="section pc-footer">
+  <div class="parent">
+    <div class="office">
+      <img src="img/djangooffice1.jpg" alt="">
+    </div>
+    <div class="red"></div>
+    <div class="pc-site-logo"> 
+      <img src="img/jangologowhite.svg" alt="">
+    </div>
+    <div class="pc-adress"> 
+      <h6>
+        株式会社ジャンゴフィルム</h6>
+        <p>〒182-0023<br>
+          東京都調布市染地2-8-12<br>
+          （日活調布撮影所内）<br>
+          tel.080-0000000</p>
+    </div>
+    <div class="pc-nikka">
+      <a href="#"><img src="img/nikka.png" alt="">NIKKATSU
+        CORPORATION
+        </a> <br>
+        <a href="#"><img src="img/nikka.png" alt="">NIKKATSU 
+          CORPORATION
+          </a> </div>
+    <div class="pc-copy"> 
+      <p><small>Copyright ©2021 DJANGO-FILM Corporation. All Rights Reserved.
+      </small></p>
+    </div>
+    
+  </div>
+</div>
+  
+    
+  
+   
+
+
+  
+  </div>
+   
+   
+    <!--------------- footer starts here --------------->
+
+    <!--------------- footer ends here --------------->
+   
+  </div>
+ 
+  <script
+  src="https://code.jquery.com/jquery-1.11.0.min.js"
+  integrity="sha256-spTpc4lvj4dOkKjrGokIrHkJgNA0xMS98Pw9N7ir9oI="
+  crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+  <!-- greensock cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+</body>
+
+</html>

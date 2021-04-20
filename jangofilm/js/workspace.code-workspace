@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../jango資料/29_napak"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "29_napak"
+	}
+}
